@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 10%;
+    font-family: Inter;
+    @font-face {
+        font-family: Inter;
+        src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #323232a3;
+        padding: 20px 10px;
+        border-radius: 10px;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 15px;
+
+        img {
+            border-radius: 50px;
+        }
+
+        #name { 
+            font-size: 22px;
+            line-height: 23px;
+            font-family: Inter;
+            font-weight: 600;
+            margin: 0;
+            padding-top: 15px;
+        }
+
+        #address {
+            font-size: 13.5px;
+            line-height: 17px;
+            font-weight: 700;
+            color: hsl(75, 94%, 57%)
+        }
+
+        #occupation {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        .social-media-links {
+            text-align: center;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+
+                p {
+                    background-color: #83838355;
+                    width: 230px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    font-size: 14px;
+                    line-height: 16px;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        background-color: #8383839e;
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 321px) {
+            width: 300px;
+        }
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        
+        p {
+            margin: 0;
+
+            a {
+                color: hsl(75, 94%, 57%)
+            }
+        }
+    
+    }
+}

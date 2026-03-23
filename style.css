@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 10%;
+  font-family: Inter;
+}
+@font-face {
+  font-family: Inter;
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.6392156863);
+  padding: 20px 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+body .profile img {
+  border-radius: 50px;
+}
+body .profile #name {
+  font-size: 22px;
+  line-height: 23px;
+  font-family: Inter;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 15px;
+}
+body .profile #address {
+  font-size: 13.5px;
+  line-height: 17px;
+  font-weight: 700;
+  color: hsl(75, 94%, 57%);
+}
+body .profile #occupation {
+  font-size: 14px;
+  line-height: 17px;
+}
+body .profile .social-media-links {
+  text-align: center;
+}
+body .profile .social-media-links a {
+  color: #fff;
+  text-decoration: none;
+}
+body .profile .social-media-links a p {
+  background-color: rgba(131, 131, 131, 0.3333333333);
+  width: 230px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 16px;
+  transition: all 0.5s;
+}
+body .profile .social-media-links a p:hover {
+  background-color: rgba(131, 131, 131, 0.6196078431);
+}
+@media (min-width: 321px) {
+  body .profile {
+    width: 300px;
+  }
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution p {
+  margin: 0;
+}
+body .attribution p a {
+  color: hsl(75, 94%, 57%);
+}/*# sourceMappingURL=style.css.map */
